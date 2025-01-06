@@ -1,0 +1,105 @@
+:root{
+    --mainColor:#554edd ;
+    --btnColor: #e37373;
+    --btnColor2: #e3c373;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Edu AU VIC WA NT Hand", cursive; 
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #dae3ee; /* or add it to the track */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #554edd;
+    border-radius: 10px;
+  }
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive; 
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dae3ee, #729ceb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #141E30;  /* fallback for old browsers */
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px auto;
+}
+
+section{
+    padding: 50px 20px;
+    margin: 20px;
+    background-color: #729ceb7c;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+label{
+    display: block;
+    color: #fff;
+}
+.input-group{
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    margin-top: 15px;
+}
+input:focus{
+    box-shadow: 0 0 0 .25rem rgba(93, 243, 231, 0.25);
+}
+.btn{
+    display: block;
+    padding: 8px  15px;
+    outline: 0;
+    border: 0;
+    background-color: #554edd;
+    color: #fff;
+    margin: 10px auto;
+    transition: background-color .5s;
+}
+.btn:hover{
+    background-color: #554eddb8;
+    cursor: pointer;
+}
+.table-responsive{
+    width: 80%;
+    margin: 20px auto;
+    overflow: auto;
+}
+table{
+    width: 100%;
+    min-width: 800px;
+}
+thead th{
+    color: white;
+}
+tbody tr td{
+    text-align: center;
+    color: white;
+}
+tbody tr td:last-child{
+    display: flex;
+}
+
+
+.btn.delete{
+    background-color: #e37373;
+}
+.btn.delete:hover{
+    background-color: #e37373af;
+}
+
+.btn.update{
+    background-color: #e3c373;
+}
+.btn.update:hover{
+    background-color: #e3c37390;
+}
